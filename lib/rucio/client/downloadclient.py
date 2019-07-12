@@ -1360,7 +1360,7 @@ class DownloadClient:
                 did_scope = '%s.%s' % (did[0], did[1])
             did_name = did_str
         else:
-            raise InputValidationError('%s is not a valid DID. To many colons.' % did_str)
+            raise InputValidationError('%s is not a valid DID. Too many colons.' % did_str)
 
         if did_name.endswith('/'):
             did_name = did_name[:-1]
